@@ -1,0 +1,45 @@
+.upper-container{
+    display: flex;
+}
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 25%;
+    background-color: bisque;
+}
+.main-container{
+    height: 100vh;
+    width: 75%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-size: 18px;
+}
+.inside-main{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
